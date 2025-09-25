@@ -1,0 +1,23 @@
+body { 
+    background-image: url(imagens/cavalo-andando-2-cdc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /*scroll - fundo mexe com o texto*/
+    /*fixed - fundo fica fixo*/
+    background-color: rgb(241, 241, 241);
+}
+
+body ::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(173, 216, 230, 0.089);
+
+}
+
+p{
+ font-size: 90px;
+ color: blue;
+}

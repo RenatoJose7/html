@@ -1,0 +1,84 @@
+* {
+margin: 0;
+padding: 0;
+border: 0;
+color: #EED6C4;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header{
+    text-align: center;
+    background-color: #3A6351;
+    padding: 15px;
+}
+
+main{
+    background-color: #3A6351;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.inicio{
+    background-color: #8eb8a67a;
+    margin: 0px 50px;
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 20px;
+    
+}
+.titulo{
+    font-size: 200px;
+    padding-bottom: 15px;
+    text-shadow: 10px 10px rgba(0, 0, 0, 0.226);
+}
+.Kyoto{
+    width: 800px;
+    border-radius: 15px;
+}
+.texto {
+    margin: 10px 100px;
+    text-align: justify;
+    font-size: 22px;
+    
+}
+.capa{
+    background-image: url(https://lp-cms-production.imgix.net/2025-06/shutterstock2315687505-cropped.jpg?auto=format,compress&q=72&w=1440&h=810&fit=crop);
+    background-size: cover;
+    height: 750px;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lugares{
+    display: flex;
+    border-radius: 20px;
+    padding-top: 20px;
+    margin: 10px 50px;
+    text-align: initial;
+    background-color: #8eb8a67a;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nome{
+    font-size: 50px;
+    padding: 7px 30px;
+    text-align: center;
+}
+.imagem{
+    width: 600px;
+    margin: 20px;
+    border-radius: 50px;
+}
+.descricao{
+    text-align: justify;
+    font-size: 20px;
+    padding: 7px 30px;
+}
+footer{
+    text-align: center;
+    background-color: #3A6351;
+    padding: 15px;
+}
