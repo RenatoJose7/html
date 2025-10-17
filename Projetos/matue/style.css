@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 3px 4px 1px rgb(0, 0, 0);
+}
+hr{
+    width: 500px;
+}
+.logo{
+    width: 250px;
+    height: 250px;
+}
+nav{
+    margin-top: 30px;
+}
+.inicio{
+    transition: font-size 0.3s ease;
+}
+.inicio:hover{
+    font-size: 23px;
+}
+.sobre{
+    transition: font-size 0.3s ease;
+}
+.sobre:hover{
+    font-size: 23px;
+}
+.alta{
+    transition: font-size 0.3s ease;
+}
+.alta:hover{
+    font-size: 23px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0px 20px;
+    color: rgb(255, 255, 255);
+}
+.capa{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-image: url(https://thugnine.fbitsstatic.net/media/design-sem-nome.png?v=202510031243 );
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+}
+.caixa{
+    padding: 50px;
+    border-radius: 15px;
+    width: 900px;
+    height: 500px;
+}
+
+.imgCapa{
+    justify-items: right;
+    width: 500px;
+    height: 600px;
+    transition: 1s ease-in-out;
+}
+.imgCapa:hover{
+    width: 600px;
+    height: 700px;
+}
+h1{
+    font-size: 100px;
+}
+.botaoAqui{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 40px;
+    padding: 25px;
+    margin-top: 25px;
+    font-weight: 500;
+    transition: 0.3s ease;
+    box-shadow: 0px, 4px 5px gray;
+}
+.botaoAqui:hover{
+    padding: 30px;
+    font-weight: 700;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.texto{
+    font-size: 20px;
+}
+.colecao{
+    font-size: 50px;
+    text-align: center;
+    margin: 40px 0px;
+}
+.roupas{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.imgRoupa1{
+    width: 350px;
+    height: 350px;
+    transition: 0.5s ease-in;
+}
+.imgRoupa1:hover{
+    width: 400px;
+    height: 400px;
+    transition-delay: 0.3s;
+}
+
+.imgRoupa2{
+    width: 350px;
+    height: 350px;
+    transition: 0.5s ease-in;
+}
+.imgRoupa2:hover{
+    width: 400px;
+    height: 400px;
+    transition-delay: 0.3s;
+}
+h3{
+    font-size: 25px;
+}
+.imgRoupa3{
+    width: 350px;
+    height: 350px;
+    transition: 0.5s ease-in;
+}
+.imgRoupa3:hover{
+    width: 400px;
+    height: 400px;
+    transition-delay: 0.3s;
+}
+
+.imgRoupa4{
+    width: 350px;
+    height: 350px;
+    transition: 0.5s ease-in;
+}
+.imgRoupa4:hover{
+    width: 400px;
+    height: 400px;
+    transition-delay: 0.3s;
+}
+footer{
+    margin-top: 50px;
+    bottom: 0;
+    background-color: black;
+    padding: 50px;
+    text-align: center;
+
+}
+.nomeLoja{
+    color: white;
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 40px;
+}
+.navegacaoFooter{
+    margin-top: 30px;
+}
+.Ifooter{
+    text-decoration: none;
+    transition: 1s ease;
+    
+}
+.Ifooter:hover{
+    text-decoration: underline;
+    font-size: 23px;
+}
+.Afooter{
+    text-decoration: none;
+    transition: 1s ease;
+    
+}
+.Afooter:hover{
+    text-decoration: underline;
+    font-size: 23px;
+}
+.Sfooter{
+    text-decoration: none;
+    transition: 1s ease;
+    
+}
+.Sfooter:hover{
+    text-decoration: underline;
+    font-size: 23px;
+}
