@@ -1,0 +1,30 @@
+div{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    border: 3px solid black;
+
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+.caixa1{
+    background: linear-gradient(red, blue);
+}
+.caixa2{
+    background: linear-gradient(to right, green, yellow, rgb(255, 98, 0));
+}
+/* radial, linear, conic */
+.caixa3{
+    background: linear-gradient(to right bottom, rgb(81, 0, 128), pink, white);
+}
+.caixa4{
+    background: radial-gradient( rgb(142, 197, 248),blue);
+}
+.caixa5{
+    background: radial-gradient(at top left, pink, white);
+}
+.caixa6{
+    background: conic-gradient( red, yellow, green, blue);  
+}
