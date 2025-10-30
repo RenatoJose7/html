@@ -1,0 +1,120 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.botao1, .botao2, .botao3{
+    width: 200px;
+    height: 30px;
+    border-radius: 30px;
+    transition: 0.3s ease;
+    background-color: white;
+    margin: 20px;
+}
+
+.botao1:hover{
+    background-color: blueviolet;
+}
+.botao2:hover{
+    background-color: rgb(43, 43, 226);
+}
+.botao3:hover{
+    background-color: rgb(226, 43, 171);
+}
+.botao4{
+    width: 200px;
+    height: 30px;
+    border-radius: 30px;
+    transition: 0.3s ease;
+    background-color: rgb(114, 0, 0);
+    color: white;
+    margin: 20px;
+}
+.botao4:active{
+    transform: scale(0.6);
+}
+input{
+    border-radius: 15px;
+    width: 200px;
+    height: 30px;
+}
+input:focus{
+    border: 2px solid rgb(255, 12, 12);
+    outline: none;
+    box-shadow: 7px 5px 7px rgba(0, 0, 0, 0.3);
+}
+.relampago{
+    width: 300px;
+    margin: 20px;
+    border-radius: 39px;
+}
+.card{
+    display: flex;
+    margin: 50px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 320px;
+    height: 420px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.855);
+    transition: 1s ease;
+    color: white;
+}
+.card:hover{
+transform: scale(1.2);
+ box-shadow: 7px 10px 10px rgba(0, 0, 0, 0.3);
+}
+img{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 39px;
+    transition: 1s ease-in-out;
+}
+img:hover{
+    filter: grayscale(1);
+}
+.botao5, .botao6, .botao7{
+    width: 200px;
+    height: 30px;
+    border-radius: 30px;
+    transition: 0.3s ease;
+    background-color: gray;
+    margin: 20px;
+}
+.botao5:hover{
+    background-color: lightblue;
+}
+.botao6:active{
+    background-color: blue;
+    transform: scale(0.8);
+}
+.botao7:focus{
+    border: 3px solid salmon;
+}
+.forms{
+    display: flex;
+    margin: 50px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 1;
+    height: 420px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.855);
+    transition: 1s ease;
+    color: white;
+}
+.confirmar{
+    width: 200px;
+    height: 30px;
+    border-radius: 30px;
+    transition: 0.5s ease;
+    margin: 20px;
+}
+
+.confirmar:hover{
+    background-color: brown;
+}
+.confirmar:active{
+    transform: scale(0.8);
+}
